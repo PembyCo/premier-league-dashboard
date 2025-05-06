@@ -8,14 +8,18 @@
         "lib": [
             "dom",
             "dom.iterable",
-            "es2015"
+            "es2020"
         ],
-        "jsx": "react",
-        "target": "es2015",
+        "jsx": "react-jsx",
+        "target": "es2020",
         "downlevelIteration": true,
         "moduleResolution": "node",
         "skipLibCheck": true,
         "types": ["react", "react-dom"],
-        "typeRoots": ["./node_modules/@types"]
+        "typeRoots": ["./node_modules/@types"],
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strictNullChecks": true
     }
 } 
