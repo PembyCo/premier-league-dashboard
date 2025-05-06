@@ -1,0 +1,21 @@
+{
+    "include": [
+        "./src/**/*"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es2015"
+        ],
+        "jsx": "react",
+        "target": "es2015",
+        "downlevelIteration": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "types": ["react", "react-dom"],
+        "typeRoots": ["./node_modules/@types"]
+    }
+} 
